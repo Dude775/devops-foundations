@@ -16,13 +16,15 @@ Portfolio: [system-portfolio.vercel.app](https://system-portfolio.vercel.app)
 
 ## Learning Path
 
-### 1. HTML - In Progress ✅
+### 1. HTML - Complete ✅
 
 **Course**: SoloLearn HTML
-**Status**: In Progress
-**Current Progress**: Lesson 2 completed
+**Status**: Complete
+**Current Progress**: 3/3 lessons completed
 
 #### Lesson 1: The Core Web Technology
+
+![Lesson 1](html/images/lesson1-core-web-technology.png)
 
 **Key Points:**
 - HTML (HyperText Markup Language) is the standard markup language for creating web pages
@@ -32,6 +34,8 @@ Portfolio: [system-portfolio.vercel.app](https://system-portfolio.vercel.app)
 - HTML works alongside CSS (styling) and JavaScript (interactivity) as core web technologies
 
 #### Lesson 2: HTML Code
+
+![Lesson 2](html/images/lesson2-html-code.png)
 
 **Key Points:**
 - HTML documents have a defined structure with essential elements
@@ -54,6 +58,18 @@ Portfolio: [system-portfolio.vercel.app](https://system-portfolio.vercel.app)
 </body>
 </html>
 ```
+
+#### Lesson 3: Headings
+
+![Lesson 3](html/images/lesson3-headings.png)
+
+**Key Points:**
+- HTML provides six levels of headings: `<h1>` through `<h6>`
+- `<h1>` is the most important (largest), `<h6>` is the least important (smallest)
+- Use only one `<h1>` per page for proper document structure
+- Follow correct heading hierarchy - don't skip levels (e.g., h1 → h2 → h3)
+- Headings are container tags - they require both opening and closing tags
+- Empty tags (like `<br>` and `<img>`) don't have closing tags
 
 ---
 
