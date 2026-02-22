@@ -20,7 +20,7 @@ Portfolio: [system-portfolio.vercel.app](https://system-portfolio.vercel.app)
 
 **Course**: SoloLearn HTML
 **Status**: Complete
-**Current Progress**: 3/3 lessons completed
+**Current Progress**: 5/5 lessons completed (3 lessons + 1 booster + 1 lesson)
 
 #### Lesson 1: The Core Web Technology
 
@@ -70,6 +70,28 @@ Portfolio: [system-portfolio.vercel.app](https://system-portfolio.vercel.app)
 - Follow correct heading hierarchy - don't skip levels (e.g., h1 → h2 → h3)
 - Headings are container tags - they require both opening and closing tags
 - Empty tags (like `<br>` and `<img>`) don't have closing tags
+
+#### Lesson 4: AI-Generated Practice
+
+![Lesson 4](html/images/lesson4-ai-practice.png)
+
+**Key Points:**
+- Reviewed angle brackets (`< >`) as the fundamental HTML syntax
+- Practiced paragraph tags `<p>` for text content
+- Reinforced understanding of container tags (require closing tags) vs empty tags (no closing tag)
+- The browser acts as an HTML translator - converting tags into visual elements
+- HTML controls the structure of the page, defining what content appears and in what order
+
+#### Lesson 5: Images
+
+![Lesson 5](html/images/lesson5-images.png)
+
+**Key Points:**
+- The `<img>` tag is an empty tag - no closing tag needed
+- The `src` attribute points to the image URL or file path
+- Image URLs must be enclosed in quotes: `src="image.jpg"`
+- Broken image icon appears when the path is wrong or image can't be loaded
+- Web servers store and serve images to browsers when requested
 
 ---
 
