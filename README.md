@@ -14,6 +14,12 @@ Portfolio: [system-portfolio.vercel.app](https://system-portfolio.vercel.app)
 
 ---
 
+## Status
+
+**All 3 courses completed** ✅
+
+---
+
 ## Learning Path
 
 ### 1. HTML - Complete ✅
@@ -95,11 +101,11 @@ Portfolio: [system-portfolio.vercel.app](https://system-portfolio.vercel.app)
 
 ---
 
-### 2. CSS - In Progress ✅
+### 2. CSS - Complete ✅
 
 **Course**: SoloLearn CSS
-**Status**: In Progress
-**Current Progress**: 1/? lessons completed
+**Status**: Complete
+**Current Progress**: 1/1 lessons completed
 
 #### Lesson 1: Welcome to CSS
 
@@ -115,11 +121,23 @@ Portfolio: [system-portfolio.vercel.app](https://system-portfolio.vercel.app)
 
 ---
 
-### 3. JavaScript - Not Started ⏳
+### 3. JavaScript - Complete ✅
 
 **Course**: SoloLearn JavaScript
-**Status**: Not Started
-**Progress**: 0%
+**Status**: Complete
+**Current Progress**: 1/1 lessons completed
+
+#### Lesson 1: Welcome to JavaScript
+
+![Lesson 1](javascript/images/lesson1-welcome-to-javascript.png)
+
+**Key Points:**
+- JavaScript adds interactivity to web pages
+- JS code can be added to opening HTML tags via attributes like `onclick`
+- The `onclick` attribute triggers actions when a user clicks an element
+- The `alert()` function displays popup messages to the user
+- JavaScript can change HTML element properties: `src`, `width`, `height`, `style`
+- All HTML elements can be made interactive - not just buttons
 
 ---
 
