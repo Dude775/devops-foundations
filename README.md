@@ -1,166 +1,58 @@
-# DevOps Pre-Course - Self Learning Path
+# DevOps Field Guide - From Theory to Production
 
-## Description
+A practitioner's field guide for the journey from fundamentals to production-grade DevOps engineering.
 
-Structured self-learning documentation for DevOps course prerequisites covering HTML, CSS, and JavaScript fundamentals via SoloLearn.
+## What This Is
 
-This repository serves as a comprehensive knowledge base tracking my progress through the foundational web technologies required before starting the DevOps training program.
+This repository operates on three levels:
 
-## Author
+1. **Field Guide** - Distilled concepts, patterns, and principles for each DevOps domain, written to be referenced in practice
+2. **Learning Journal** - Honest reflections, surprises, and connections discovered along the way
+3. **Live Projects** - A rolling project that evolves with each module, accumulating real infrastructure
 
-**David Rubin** - AI Solutions Specialist
-GitHub: [@Dude775](https://github.com/Dude775)
-Portfolio: [system-portfolio.vercel.app](https://system-portfolio.vercel.app)
+## Course Roadmap
 
----
+| # | Module | Focus | Status |
+|---|--------|-------|--------|
+| 00 | [Pre-Course](00-pre-course/) | HTML, CSS, JavaScript fundamentals | Done |
+| 01 | [Foundations](01-foundations/) | DevOps philosophy, SDLC, team dynamics | Done |
+| 02 | [Linux](02-linux/) | Command line, filesystem, permissions | Upcoming |
+| 03 | [Networking](03-networking/) | TCP/IP, DNS, HTTP, firewalls | Upcoming |
+| 04 | [Python Basics](04-python-basics/) | Syntax, data structures, scripting | Upcoming |
+| 05 | [Git & GitHub](05-git-github/) | Version control, branching, collaboration | Upcoming |
+| 06 | [Python Advanced](06-python-advanced/) | OOP, APIs, automation scripts | Upcoming |
+| 07 | [AWS](07-aws/) | Cloud fundamentals, core services | Upcoming |
+| 08 | [Docker](08-docker/) | Containers, images, Compose | Upcoming |
+| 09 | [CI/CD](09-ci-cd/) | Pipelines, automation, deployment strategies | Upcoming |
+| 10 | [Kubernetes](10-kubernetes/) | Orchestration, pods, services | Upcoming |
+| 11 | [Helm](11-helm/) | Package management for Kubernetes | Upcoming |
+| 12 | [Terraform](12-terraform/) | Infrastructure as Code | Upcoming |
+| 13 | [ArgoCD](13-argocd/) | GitOps, continuous delivery | Upcoming |
+| 14 | [Ansible](14-ansible/) | Configuration management, playbooks | Upcoming |
+| 15 | [Jenkins](15-jenkins/) | Build automation, pipeline orchestration | Upcoming |
+| 16 | [Grafana](16-grafana/) | Monitoring, dashboards, observability | Upcoming |
 
-## Status
+## Iron Rules
 
-**All 3 courses completed** ✅
+Principles collected throughout the course. These are non-negotiable truths earned through practice.
 
----
+- "An application is not code." - it is a solution living inside an organization
+- "Tech decisions are also organizational decisions."
+- "If it works, don't touch it."
+- "Any system too open will be breached."
+- "What you don't need, don't use."
+- "Always think worst case."
+- "A requirement not defined correctly doesn't disappear - it comes back as bugs."
+- "Bug in code = incident. Bug in data = crisis."
+- "Code that works in dev is not necessarily production-ready."
 
-## Learning Path
+*This list grows with each module.*
 
-### 1. HTML - Complete ✅
+## About the Author
 
-**Course**: SoloLearn HTML
-**Status**: Complete
-**Current Progress**: 5/5 lessons completed (3 lessons + 1 booster + 1 lesson)
+**David Rubin** - AI Solutions Specialist transitioning to DevOps Engineering.
 
-#### Lesson 1: The Core Web Technology
+Currently bridging the gap between business needs and technical implementation, now building depth in infrastructure, automation, and production systems.
 
-![Lesson 1](html/images/lesson1-core-web-technology.png)
-
-**Key Points:**
-- HTML (HyperText Markup Language) is the standard markup language for creating web pages
-- HTML describes the structure and content of a web page
-- HTML consists of elements represented by tags
-- Browsers interpret HTML to display formatted content
-- HTML works alongside CSS (styling) and JavaScript (interactivity) as core web technologies
-
-#### Lesson 2: HTML Code
-
-![Lesson 2](html/images/lesson2-html-code.png)
-
-**Key Points:**
-- HTML documents have a defined structure with essential elements
-- The `<!DOCTYPE html>` declaration defines the document type
-- The `<html>` element is the root of an HTML page
-- The `<head>` contains meta information about the document
-- The `<body>` contains the visible page content
-- HTML tags usually come in pairs: opening tag `<tag>` and closing tag `</tag>`
-
-**Code Example:**
-```html
-<!DOCTYPE html>
-<html>
-<head>
-    <title>My First Page</title>
-</head>
-<body>
-    <h1>Welcome to HTML</h1>
-    <p>This is my first HTML page.</p>
-</body>
-</html>
-```
-
-#### Lesson 3: Headings
-
-![Lesson 3](html/images/lesson3-headings.png)
-
-**Key Points:**
-- HTML provides six levels of headings: `<h1>` through `<h6>`
-- `<h1>` is the most important (largest), `<h6>` is the least important (smallest)
-- Use only one `<h1>` per page for proper document structure
-- Follow correct heading hierarchy - don't skip levels (e.g., h1 → h2 → h3)
-- Headings are container tags - they require both opening and closing tags
-- Empty tags (like `<br>` and `<img>`) don't have closing tags
-
-#### Lesson 4: AI-Generated Practice
-
-![Lesson 4](html/images/lesson4-ai-practice.png)
-
-**Key Points:**
-- Reviewed angle brackets (`< >`) as the fundamental HTML syntax
-- Practiced paragraph tags `<p>` for text content
-- Reinforced understanding of container tags (require closing tags) vs empty tags (no closing tag)
-- The browser acts as an HTML translator - converting tags into visual elements
-- HTML controls the structure of the page, defining what content appears and in what order
-
-#### Lesson 5: Images
-
-![Lesson 5](html/images/lesson5-images.png)
-
-**Key Points:**
-- The `<img>` tag is an empty tag - no closing tag needed
-- The `src` attribute points to the image URL or file path
-- Image URLs must be enclosed in quotes: `src="image.jpg"`
-- Broken image icon appears when the path is wrong or image can't be loaded
-- Web servers store and serve images to browsers when requested
-
----
-
-### 2. CSS - Complete ✅
-
-**Course**: SoloLearn CSS
-**Status**: Complete
-**Current Progress**: 1/1 lessons completed
-
-#### Lesson 1: Welcome to CSS
-
-![Lesson 1](css/images/lesson1-welcome-to-css.png)
-
-**Key Points:**
-- CSS (Cascading Style Sheets) is used to style web pages
-- CSS is one of the three core web technologies (HTML, CSS, JavaScript)
-- The `style` attribute adds CSS directly to HTML tags (inline styling)
-- Common CSS properties include: `color`, `background-color`, `font-size`, `text-align`, `margin`, `border`
-- Multiple CSS properties are separated by semicolons: `style="color: blue; font-size: 20px;"`
-- CSS values must be enclosed in quotes when used within the style attribute
-
----
-
-### 3. JavaScript - Complete ✅
-
-**Course**: SoloLearn JavaScript
-**Status**: Complete
-**Current Progress**: 1/1 lessons completed
-
-#### Lesson 1: Welcome to JavaScript
-
-![Lesson 1](javascript/images/lesson1-welcome-to-javascript.png)
-
-**Key Points:**
-- JavaScript adds interactivity to web pages
-- JS code can be added to opening HTML tags via attributes like `onclick`
-- The `onclick` attribute triggers actions when a user clicks an element
-- The `alert()` function displays popup messages to the user
-- JavaScript can change HTML element properties: `src`, `width`, `height`, `style`
-- All HTML elements can be made interactive - not just buttons
-
----
-
-## Tech Context
-
-These foundational web technologies are prerequisites for the DevOps training program. Understanding HTML, CSS, and JavaScript is essential for:
-
-- Working with web-based DevOps tools and dashboards
-- Creating custom monitoring and automation interfaces
-- Understanding application structure for containerization
-- Debugging web applications in CI/CD pipelines
-- Implementing Infrastructure as Code with web-based consoles
-
----
-
-## Certificates
-
-Certificates will be added upon course completion:
-
-- [ ] HTML Certificate
-- [ ] CSS Certificate
-- [ ] JavaScript Certificate
-
----
-
-**Last Updated**: February 2026
+- GitHub: [@Dude775](https://github.com/Dude775)
+- Portfolio: [system-portfolio.vercel.app](https://system-portfolio.vercel.app)
